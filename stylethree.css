@@ -22,7 +22,6 @@ body {
     width: 120px;
     border-radius: 60px;
     border: 3px solid var(--colorSecondary);
-    box-shadow: 0 0 12px var(--lightColor);
 }
 
 .profile {
