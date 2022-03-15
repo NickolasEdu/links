@@ -19,8 +19,8 @@ body {
 
 /* PROFILE */
 .avatar {
-    width: 120px;
-    border-radius: 60px;
+    width: 300px;
+    border-radius: 50%;
     border: 3px solid var(--colorSecondary);
 }
 
@@ -30,14 +30,14 @@ body {
 }
 
 h1 {
-    font-size: 29px;
+    font-size: 50px;
     font-weight: 100;
     margin-bottom: 5px;
 }
 
 h2 {
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI';
-    font-size: 24px;
+    font-size: 37px;
     font-weight: 100;
 }
 
@@ -72,10 +72,16 @@ h2 {
     color: var(--darkColor);
     margin-bottom: 5px;
     font-size: 35px;
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen;
 }
 
 .links li a img {
     width: 60px;
     margin: auto;
 }
+
+@media only screen and (min-width: 800px) {
+    .links li a {
+        margin: 0.5em 2em;
+    }
+  }
