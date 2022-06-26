@@ -57,35 +57,46 @@ h2 {
 /* BOXES */
 .links li {
     justify-content: flex-start;
-    margin: 0.5em 1em;
+    margin: 10px 30px;
 }
 
 .links li a {
-    padding: 3px 0;
+    padding: 10px 0;
     display: flex;
     flex-direction: row;
     justify-content: flex-start;
-    align-items: center;
     text-decoration: none;
     border-radius: 50px;
-    font-weight: bold;
+}
+
+.links li a p {
+    margin: auto;
+    display: block;
+    color: var(--lightColor);
+    font-size: 24px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen;
+    max-width: 50%;
+}
+
+.links li a i {
+    margin: auto;
+    max-width: 50%;
 }
 
 .links li a span {
     margin: auto;
-    display: block;
-    color: var(--lightColor);
-    margin-bottom: 5px;
-    font-size: 35px;
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen;
 }
 
-.links li a img {
-    width: 60px;
-    margin: auto;
+.links .instagram span i,
+.links .portfolio a span i {
+    margin-left: -28px;
 }
 
 /* SINGLE BOX STYLES */
+
+i {
+    color: var(--lightColor);
+}
 
 .links .portfolio a {
     background-color: var(--wine);
