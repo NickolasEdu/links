@@ -122,16 +122,6 @@ i {
     background-color: var(--whatsapp);
 }
 
-.footer {
-    background-color: var(--darkColor);
-    margin-top: 8px;
-    text-align: center;
-    border-radius: 20% 20% 0 0;
-}
-
-.footer p {
-    font-size: 30px;
-}
 
 @media only screen and (min-width: 800px) {
 
@@ -143,12 +133,4 @@ i {
         margin: 0.5em 4em;
         padding: 10px 0;
     }
-  }
-
-  footer {
-      background-color: var(--darkColor);
-      text-align: center;
-      font-size: 35px;
-      width: 100vw;
-      height: 7vh;
-  }
+}
