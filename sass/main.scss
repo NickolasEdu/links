@@ -1,0 +1,120 @@
+// Root
+$gradient: (50deg, rgba(88,18,93,100) 21%, rgba(31,33,104,20) 71%);
+$lightColor: #DEF2F1;
+$darkColor: #1A1A1D;
+$wine: #860038;
+$silver: #C0C0C0;
+$git: #171515;
+$instagram: linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%);
+$linkedin: #0e768a;
+$telegram: #0088cc;
+$whatsapp: #25d366;
+
+
+body {
+
+    background: rgb(31,29,29);
+    background: linear-gradient(0deg, rgba(31,29,29,1) 22%, rgba(41,215,211,1) 95%);
+    
+    // header
+    header {
+            text-align: center;
+            margin: 1em auto;
+        
+        .avatar {
+            min-height: 100px;
+            max-height: 250px;
+            min-width: 100px;
+            max-width: 240px;
+            border-radius: 50%;
+            border: 2px solid $darkColor;
+        }
+
+        h1 {
+            font-size: 2.5em;
+            font-weight: 100;
+            margin: auto;
+        }
+        
+        h2 {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI';
+            font-size: 2em;
+            font-weight: 100px;
+        }
+    }
+
+    // buttons
+    main {
+        ul {
+            display: flex;
+            flex-direction: column;
+            list-style: none;
+
+            
+            li {
+                justify-content: flex-start;
+                margin: 10px 30px;
+
+                .port {
+                    background-color: $wine;
+                    border-radius: 50px;
+                }
+
+                .github {
+                    background: $git;
+                    border-radius: 50px;
+                }
+
+                .instagram {
+                    background: $instagram;
+                    border-radius: 50px;
+                }
+
+                .linkedin {
+                    background: $linkedin;
+                    border-radius: 50px;
+                }
+
+                .whatsapp {
+                    background: $whatsapp;
+                    border-radius: 50px;
+                }
+
+                .telegram {
+                    background: $telegram;
+                    border-radius: 50px;
+                }
+
+
+                a {
+                    padding: 10px 0;
+                    display: flex;
+                    flex-direction: row;
+                    justify-content: flex-start;
+                    text-decoration: none;
+
+                    p {
+                        margin: auto;
+                        display: block;
+                        color: $lightColor;
+                        font-size: 24px;
+                        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen;
+                        max-width: 50%;
+                    }
+
+                    i {
+                        text-align: center;
+                        max-width: 50%;
+                        color: $lightColor;
+                    }
+
+                    span {
+                        margin: auto;
+                    }
+                }
+            }
+        }
+
+
+    }
+}

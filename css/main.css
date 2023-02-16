@@ -1,0 +1,84 @@
+body {
+  background: rgb(31, 29, 29);
+  background: linear-gradient(0deg, rgb(31, 29, 29) 22%, rgb(41, 215, 211) 95%);
+}
+body header {
+  text-align: center;
+  margin: 1em auto;
+}
+body header .avatar {
+  min-height: 100px;
+  max-height: 250px;
+  min-width: 100px;
+  max-width: 240px;
+  border-radius: 50%;
+  border: 2px solid #1A1A1D;
+}
+body header h1 {
+  font-size: 2.5em;
+  font-weight: 100;
+  margin: auto;
+}
+body header h2 {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI";
+  font-size: 2em;
+  font-weight: 100px;
+}
+body main ul {
+  display: flex;
+  flex-direction: column;
+  list-style: none;
+}
+body main ul li {
+  justify-content: flex-start;
+  margin: 10px 30px;
+}
+body main ul li .port {
+  background-color: #860038;
+  border-radius: 50px;
+}
+body main ul li .github {
+  background: #171515;
+  border-radius: 50px;
+}
+body main ul li .instagram {
+  background: linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%);
+  border-radius: 50px;
+}
+body main ul li .linkedin {
+  background: #0e768a;
+  border-radius: 50px;
+}
+body main ul li .whatsapp {
+  background: #25d366;
+  border-radius: 50px;
+}
+body main ul li .telegram {
+  background: #0088cc;
+  border-radius: 50px;
+}
+body main ul li a {
+  padding: 10px 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  text-decoration: none;
+}
+body main ul li a p {
+  margin: auto;
+  display: block;
+  color: #DEF2F1;
+  font-size: 24px;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen;
+  max-width: 50%;
+}
+body main ul li a i {
+  text-align: center;
+  max-width: 50%;
+  color: #DEF2F1;
+}
+body main ul li a span {
+  margin: auto;
+}
+
+/*# sourceMappingURL=main.css.map */
