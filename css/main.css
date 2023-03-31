@@ -1,6 +1,6 @@
 body {
-  background: rgb(31, 29, 29);
-  background: linear-gradient(0deg, rgb(31, 29, 29) 22%, rgb(41, 215, 211) 95%);
+  background: #3B384D;
+  color: #BF912B;
 }
 body header {
   text-align: center;
@@ -12,7 +12,7 @@ body header .avatar {
   min-width: 100px;
   max-width: 240px;
   border-radius: 50%;
-  border: 2px solid #1A1A1D;
+  border: 2px solid #BF912B;
 }
 body header h1 {
   font-size: 2.5em;
@@ -23,6 +23,9 @@ body header h2 {
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI";
   font-size: 2em;
   font-weight: 100px;
+}
+body main {
+  font-size: 20px;
 }
 body main ul {
   display: flex;
@@ -53,8 +56,8 @@ body main ul li .whatsapp {
   background: #25d366;
   border-radius: 50px;
 }
-body main ul li .telegram {
-  background: #0088cc;
+body main ul li .download {
+  background: #BF912B;
   border-radius: 50px;
 }
 body main ul li a {
@@ -63,22 +66,24 @@ body main ul li a {
   flex-direction: row;
   justify-content: flex-start;
   text-decoration: none;
+  height: 45px;
 }
 body main ul li a p {
   margin: auto;
   display: block;
   color: #DEF2F1;
-  font-size: 24px;
+  font-size: 30px;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen;
   max-width: 50%;
 }
 body main ul li a i {
   text-align: center;
-  max-width: 50%;
+  width: 50%;
   color: #DEF2F1;
+  margin: 25px auto;
 }
 body main ul li a span {
-  margin: auto;
+  width: 50%;
 }
 
 /*# sourceMappingURL=main.css.map */

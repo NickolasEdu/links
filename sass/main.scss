@@ -2,6 +2,8 @@
 $gradient: (50deg, rgba(88,18,93,100) 21%, rgba(31,33,104,20) 71%);
 $lightColor: #DEF2F1;
 $darkColor: #1A1A1D;
+$colorPrimary: #3B384D;
+$colorSecondary: #BF912B;
 $wine: #860038;
 $silver: #C0C0C0;
 $git: #171515;
@@ -13,8 +15,8 @@ $whatsapp: #25d366;
 
 body {
 
-    background: rgb(31,29,29);
-    background: linear-gradient(0deg, rgba(31,29,29,1) 22%, rgba(41,215,211,1) 95%);
+    background: $colorPrimary;
+    color: $colorSecondary;
     
     // header
     header {
@@ -27,7 +29,7 @@ body {
             min-width: 100px;
             max-width: 240px;
             border-radius: 50%;
-            border: 2px solid $darkColor;
+            border: 2px solid $colorSecondary;
         }
 
         h1 {
@@ -45,6 +47,7 @@ body {
 
     // buttons
     main {
+        font-size: 20px;
         ul {
             display: flex;
             flex-direction: column;
@@ -80,8 +83,8 @@ body {
                     border-radius: 50px;
                 }
 
-                .telegram {
-                    background: $telegram;
+                .download {
+                    background: $colorSecondary;
                     border-radius: 50px;
                 }
 
@@ -92,24 +95,26 @@ body {
                     flex-direction: row;
                     justify-content: flex-start;
                     text-decoration: none;
+                    height: 45px;
 
                     p {
                         margin: auto;
                         display: block;
                         color: $lightColor;
-                        font-size: 24px;
+                        font-size: 30px;
                         font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen;
                         max-width: 50%;
                     }
 
                     i {
                         text-align: center;
-                        max-width: 50%;
+                        width: 50%;
                         color: $lightColor;
+                        margin: 25px auto;
                     }
 
                     span {
-                        margin: auto;
+                        width: 50%;
                     }
                 }
             }
